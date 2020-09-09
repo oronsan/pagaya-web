@@ -1,7 +1,7 @@
 FROM node:13-alpine
 ENV NODE_ENV "production"
-ENV PORT 8080
-EXPOSE 8080
+ENV PORT 80
+EXPOSE 80
 
 RUN mkdir -p /usr/src/app
 
